@@ -12,14 +12,12 @@ a{
 
 .navigation{
   list-style-type:none;
-  displaay: flex;
+  display: flex;
   padding:0;
   background-color:#ffff;
   padding-bottom:1vw;
   padding-top:1vw;
   padding-left: 32vw;
-  color:#3d5591;
-  border-color:#3d5591;
   position: sticky;
   top: 0;
 }
