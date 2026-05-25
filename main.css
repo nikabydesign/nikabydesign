@@ -38,3 +38,30 @@ a{
   padding: 10px;
   margin: 0 10px;
 }
+
+.footbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.footbar img {
+  width: 20vw;
+}
+
+.container .footbar{
+  justify-content: space-between;
+}
+
+.contact {
+  text-align:left;
+}
+
+#footname {
+  text-align: left;
+
+}
