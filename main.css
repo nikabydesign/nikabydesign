@@ -12,11 +12,11 @@ a{
 
 .navigation{
   list-style-type:none;
+  displaay: flex;
   padding:0;
   background-color:#ffff;
   padding-bottom:1vw;
   padding-top:1vw;
-  padding-left: 32vw;
   position: sticky;
   top: 0;
 }
@@ -33,7 +33,5 @@ a{
 #home{
   width: 10vw;
   vertical-align: middle;
-  margin-right: 57vw;
-  margin-left: -34vw;
   
 }
