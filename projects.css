@@ -1,0 +1,68 @@
+body{
+  font-family: "Helvetica Neue Medium", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align:center;
+  font-size: calc(1.1vw);
+}
+
+a{
+  color:#000000;
+  text-decoration: none;
+}
+
+#home{
+  width: 10vw;
+  
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.container .navbar{
+  justify-content: space-between;
+}
+
+.container .navbar ul li {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.footbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.footbar img {
+  width: 20vw;
+}
+
+.container .footbar{
+  justify-content: space-between;
+}
+
+.contact {
+  text-align:left;
+  padding-right: 4vw;
+}
+
+#footname {
+  text-align: left;
+
+}
