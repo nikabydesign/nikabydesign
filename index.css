@@ -1,0 +1,42 @@
+body{
+  font-family: "Helvetica Neue Medium", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align:center;
+  font-size: calc(1vw);
+}
+
+a{
+  color:#000000;
+  text-decoration: none;
+}
+
+.navigation{
+  list-style-type:none;
+  displaay: flex;
+  padding:0;
+  background-color:#ffff;
+  padding-bottom:1vw;
+  padding-top:1vw;
+  padding-left: 32vw;
+  color:#3d5591;
+  border-color:#3d5591;
+  position: sticky;
+  top: 0;
+}
+
+.navigation li{
+  display:inline;
+  padding-left:3vw;
+  padding-right:3vw;
+  font-family: "Helvetica Neue Medium", Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 0;
+}
+
+#home{
+  width: 10vw;
+  vertical-align: middle;
+  margin-right: 57vw;
+  margin-left: -34vw;
+  
+}
