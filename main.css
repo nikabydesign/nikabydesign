@@ -2,7 +2,7 @@ body{
   font-family: "Helvetica Neue Medium", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-align:center;
-  font-size: calc(1vw);
+  font-size: calc(1.1vw);
 }
 
 a{
@@ -10,28 +10,31 @@ a{
   text-decoration: none;
 }
 
-.navigation{
-  list-style-type:none;
-  displaay: flex;
-  padding:0;
-  background-color:#ffff;
-  padding-bottom:1vw;
-  padding-top:1vw;
-  position: sticky;
-  top: 0;
-}
-
-.navigation li{
-  display:inline;
-  padding-left:3vw;
-  padding-right:3vw;
-  font-family: "Helvetica Neue Medium", Arial, Helvetica, sans-serif;
-  position: sticky;
-  top: 0;
-}
-
 #home{
   width: 10vw;
-  vertical-align: middle;
   
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.container .navbar{
+  justify-content: space-between;
+}
+
+.container .navbar ul li {
+  padding: 10px;
+  margin: 0 10px;
 }
