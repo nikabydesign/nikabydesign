@@ -39,6 +39,26 @@ a{
   margin: 0 10px;
 }
 
+.allcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  
+}
+
+#abouttext {
+  text-align: left;
+  margin-left: 1vw;
+}
+
+.aboutcontent img{
+  width: 80%;
+
+}
 .footbar {
   display: flex;
   align-items: center;
