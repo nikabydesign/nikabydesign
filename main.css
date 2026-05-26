@@ -57,7 +57,12 @@ a{
 
 .aboutcontent img{
   width: 80%;
+}
 
+#hi{
+  font-weight: bold;
+  font-size: 300%;
+  margin-bottom: -1vw;
 }
 .footbar {
   display: flex;
