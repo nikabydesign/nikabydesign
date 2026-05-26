@@ -39,6 +39,10 @@ a{
   margin: 0 10px;
 }
 
+#projectslink{
+  font-weight: bold;
+}
+
 .footbar {
   display: flex;
   align-items: center;
